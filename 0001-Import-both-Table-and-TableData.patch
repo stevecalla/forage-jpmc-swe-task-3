@@ -1,0 +1,23 @@
+From b968a49a72b1725407bed0733486f6d5d1f19b5d Mon Sep 17 00:00:00 2001
+From: Steve Calla <callasteven@gmail.com>
+Date: Sat, 1 Jul 2023 16:06:45 -0600
+Subject: [PATCH] Import both Table and TableData
+
+---
+ src/Graph.tsx | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/src/Graph.tsx b/src/Graph.tsx
+index 038de18..1fe17d7 100644
+--- a/src/Graph.tsx
++++ b/src/Graph.tsx
+@@ -1,5 +1,5 @@
+ import React, { Component } from 'react';
+-import { TableData } from '@finos/perspective';
++import { Table, TableData } from '@finos/perspective';
+ import { ServerRespond } from './DataStreamer';
+ import { DataManipulator } from './DataManipulator';
+ import './Graph.css';
+-- 
+2.41.0
+
